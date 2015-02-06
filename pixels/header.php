@@ -21,6 +21,8 @@
 		<meta name="description" content="<?php echo htmlentities(get_the_excerpt()); ?>" />
 		<meta name="viewport" content="width=device-width">
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 		<!--[if IE 8]>
 		    <link rel="stylesheet" type="text/css" href="<?php bloginfo( 'template_url' ); ?>/ie8.css" />
@@ -47,12 +49,10 @@
 		<div id="background" style="background-position: 0px 0px;"></div>
 		<div id="goToTop"></div>
 		<div class="column left">
-			<div class="button-name">
-				Arco Mul
-				<div class="content">
-					You'll find here some things I like to write down about code and art I made or liked. Other random thoughts may appear too :-)
-				</div>
-				<div class="bg"></div>
+			<div class="profile-picture">
+                <a href="/about">
+                    <img src="/wp-content/themes/pixels/img/arco.png" />
+                </a>
 			</div>
             <div class="top-menu-button">Menu</div>
 			<?php wp_nav_menu(array('menu' => 'main')); ?>
