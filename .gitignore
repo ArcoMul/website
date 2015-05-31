@@ -1,2 +1,6 @@
 *.css
 *.un~
+*.swp
+
+.vagrant/
+wp-content/uploads/
