@@ -20,7 +20,7 @@
 		?></title>
 		<meta name="description" content="<?php echo htmlentities(get_the_excerpt()); ?>" />
 		<meta name="viewport" content="width=device-width">
-		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="/wp-content/themes/pixels/favicon.ico" type="image/x-icon" />
         <link href='http://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
